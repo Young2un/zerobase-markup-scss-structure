@@ -27,4 +27,29 @@
     justify-content: space-between;
     align-items: center;
   }
+  .title-area {
+    display: flex;
+    align-items: center;
+  }
+  .title {
+    font-size: 19px;
+    font-weight: 700;
+    color: $booking-color-text100;
+    letter-spacing: -0.3px;
+  }
+  .period {
+    font-size: 14px;
+    letter-spacing: -0.3px;
+    color: $booking-color-text4;
+    &::before {
+      content: '';
+      display: inline-block;
+      margin: 0 10px;
+      width: 4px;
+      height: 4px;
+      border-radius: 100%;
+      background-color: ededed;
+      vertical-align: middle;
+    }
+  }
 }
