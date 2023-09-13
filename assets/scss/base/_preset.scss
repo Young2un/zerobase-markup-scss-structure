@@ -18,5 +18,9 @@
         display: none;
     }
     //비표준이라고 함
-
+}
+.scroll-off {
+    overflow: hidden;
+    -ms-touch-action: none;
+    touch-action: none;
 }
